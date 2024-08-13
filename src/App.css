@@ -1,0 +1,32 @@
+.chatList {
+  margin-top: 250px;
+  margin-bottom: 50px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.MessageInput {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+.MessageInput > input {
+  flex-grow: 1;
+}
+
+.card {
+  display: flex;
+}
+
+.card > input {
+  flex-grow: 1;
+}
